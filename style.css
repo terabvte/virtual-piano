@@ -1,0 +1,26 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.octave {
+	display: flex;
+}
+
+.natural {
+	height: 200px;
+	width: 60px;
+	background-color: #eee;
+	border: 1px solid rgb(108, 102, 102);
+	border-radius: 0 0 8px 8px;
+}
