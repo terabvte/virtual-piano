@@ -15,12 +15,29 @@ body {
 
 .octave {
 	display: flex;
+	border-top: rgb(179, 3, 3) 8px solid;
 }
 
 .natural {
-	height: 200px;
-	width: 60px;
+	height: 220px;
+	width: 70px;
 	background-color: #eee;
 	border: 1px solid rgb(108, 102, 102);
 	border-radius: 0 0 8px 8px;
+	position: relative;
+}
+
+.accidental {
+	position: absolute;
+	width: 40px;
+	height: 140px;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	transform: translateX(50%);
+	background-color: #222;
+}
+
+.natural:focus {
+	background-color: #333;
 }
